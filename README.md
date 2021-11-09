@@ -1,1 +1,2 @@
-# Qrcode
+# QrCode
+QRcode

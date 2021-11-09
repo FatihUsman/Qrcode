@@ -1,0 +1,36 @@
+body {
+  font-family: arial, calibri, sans-serif;
+}
+
+.note {
+  margin: 0 0 20px;
+  padding: 20px 30px 20px 15px !important;
+  border-left: 60px solid #eee;
+  border-radius: 5px !important;
+  position: relative;
+}
+
+.note.note-success {
+  background-color: #c2eac4 !important;
+  border-color: #4caf50 !important;
+  color: #17611a !important;
+}
+
+.note.note-success:before {
+  content: '\f00c' !important;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 38px;
+  line-height: 1;
+  font-family: 'Font Awesome';
+  position: absolute;
+  left: -49px;
+  font-size: 38px;
+  top: 9px;
+  color: #f0fdf0;
+}
